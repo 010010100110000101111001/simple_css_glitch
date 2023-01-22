@@ -1,0 +1,24 @@
+a:hover {
+  animation: glitch-link 1s infinite;
+}
+
+@keyframes glitch-link {
+  0% {
+    text-shadow: 2px 1px rgb(250, 52, 247);
+  }
+  10% {
+    text-shadow: -1px- 2px rgb(250, 52, 247);
+  }
+  50% {
+    text-shadow: 2px 1px rgb(32, 190, 222);
+  }
+  60% {
+    text-shadow: -1px -2px rgb(32, 190, 222);
+  }
+  90% {
+    text-shadow: 1px 2px rgb(250, 52, 247);
+  }
+  100% {
+    text-shadow: -2px -1px rgb(250, 52, 247);
+  }
+}
